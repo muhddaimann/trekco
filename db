@@ -1,56 +1,40 @@
-template/
-├─ app/
-│  ├─ (tabs)/
-│  │  ├─ a/
-│  │  │  ├─ _layout.tsx
-│  │  │  └─ index.tsx
-│  │  ├─ b/
-│  │  │  ├─ _layout.tsx
-│  │  │  └─ index.tsx
-│  │  ├─ c/
-│  │  │  ├─ _layout.tsx
-│  │  │  └─ index.tsx
-│  │  ├─ d/
-│  │  │  ├─ _layout.tsx
-│  │  │  └─ index.tsx
-│  │  └─ _layout.tsx
-│  ├─ _layout.tsx
-│  ├─ goodbye.tsx
-│  ├─ index.tsx
-│  └─ welcome.tsx
-├─ assets/
-│  ├─ fonts/
-│  │  └─ SpaceMono-Regular.ttf
-│  └─ images/
-│     ├─ favicon.png
-│     ├─ icon.png
-│     └─ splash.png
-├─ components/
-│  ├─ a/
-│  │  └─ userCard.tsx
-│  ├─ b/
-│  │  └─ userCard.tsx
-│  ├─ c/
-│  │  └─ userCard.tsx
-│  ├─ d/
-│  │  └─ userCard.tsx
-│  ├─ bottomNav.tsx
-│  ├─ logoutFAB.tsx
-│  ├─ sectionHeader.tsx
-│  ├─ skeletonLoad.tsx
-│  ├─ toastBar.tsx
-│  └─ topFAB.tsx
-├─ constants/
-│  ├─ color.ts
-│  └─ theme.ts
-├─ contexts/
-│  ├─ api/
-│  │  └─ api.tsx
-│  ├─ authContext.tsx
-│  ├─ bottomContext.tsx
-│  ├─ themeContext.tsx
-│  └─ tokenContext.tsx
-├─ hooks/
-│  ├─ useBottomNav.tsx
-│  └─ useToast.tsx
-
+trekco
+├─ Overview
+│   └─ A mobile app for adventure seekers to discover, plan, and log waterfall hikes across the country with offline support and trail tracking.
+│
+├─ User Personas
+│   ├─ Explorer A, weekend hiker looking for scenic and accessible waterfall trails
+│   ├─ Group Hiker B, plans trips for friends, values parking info and trail safety
+│   └─ Solo Cacher C, explores remote trails and logs personal notes and photos
+│
+├─ Core Features
+│   ├─ Waterfall Map, interactive GPS map with trail and waterfall markers
+│   ├─ Trail Cards,  hike info including difficulty, distance, weather, and photos
+│   ├─ Offline Trail Mode,  download trails and maps for offline access
+│   ├─ Trip Logbook,  save completed hikes with notes and media
+│   ├─ Community Tips, trail conditions, hazards, and hidden spots
+│   └─ Check-In Challenge, collect badges by checking in at waterfalls
+│
+├─ Tabs
+│   ├─ Discover
+│   │   ├─ Search and filter by difficulty, distance, region, and popularity
+│   │   └─ Featured trails and new waterfall highlights
+│   │
+│   ├─ Trails
+│   │   ├─ Bookmarked, nearby, and downloaded trails
+│   │   └─ Trail preview with elevation, time estimate, and offline availability
+│   │
+│   ├─ Logbook
+│   │   ├─ Personal hike history with date, notes, and photos
+│   │   └─ Stats like total hikes, distance, elevation gain, badges earned
+│   │
+│   └─ Profile
+│       ├─ User info, gear preferences, and trip goals
+│       ├─ Dark mode toggle and settings
+│       └─ Export logbook or sync with cloud
+│
+├─ Stretch Ideas
+│   ├─ Trail SOS button, emergency alert with GPS location
+│   ├─ Pack checklist,  auto-generate based on trail type and weather
+│   ├─ Leaderboard and waterfall challenge events
+│   └─ Allow users to submit new trail and waterfall entries
